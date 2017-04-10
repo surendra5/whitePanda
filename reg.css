@@ -1,0 +1,137 @@
+.form-area{
+
+  border: 1px solid #f1f1f1;
+  padding: 50px;
+  position: relative;
+  box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
+  padding: 10px;
+  background: white;
+  padding: 15px;
+  vertical-align: middle;
+  letter-spacing: .5px;
+  margin-top: 5%;
+}
+/
+.form-horizontal>.form-group>.col-sm-1{
+  padding: 2px;
+
+}
+.terms{
+  color: green;
+}
+
+
+
+.form-control{
+  display: block;
+width: 80%;
+height: 34px;
+padding: 6px 12px;
+font-size: 14px;
+letter-spacing: .5px;
+line-height: 1.42857143;
+color: #555;
+background-color: #F9F9F9;
+background-image: none;
+border: 1px solid transparent;
+border-radius: 0;
+-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+-webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+-o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+
+}
+
+.col-centegreen{
+    float: none;
+    margin: 0 auto;
+    margin-top: 0 auto;
+}
+
+
+
+
+.form-head{
+  margin-bottom: 40px;
+  font-size: 30px;
+  color: #D3D3D3;
+}
+
+.btn{
+  border-radius: 0;
+  width: 107px;
+  letter-spacing: .5px;
+  text-transform: uppercase;
+  }
+
+  .btn:focus,.btn:hover{
+    box-shadow: 0 2px 2px 0 #D3D3D3;
+  }
+.login{
+  color: green;
+  margin: 50px 0 0 0;}
+.submit{
+  margin: 50px 0 50px 0;
+}
+
+
+
+
+
+
+    .form-control:focus {
+      border-color: #F9F9F9;
+      box-shadow: inset 0 1px 1px #F9F9F9;
+    }
+
+.material-icons{
+      margin: 8px;
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 1;
+    color: #D3D3D3;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-feature-settings: 'liga';
+    border-color: #F9F9F9;
+    box-shadow: inset 0 1px 1px #F9F9F9;
+    -webkit-font-smoothing: antialiased;
+}
+
+input[type=checkbox]{
+    margin: 5px -6px 1px 17px;
+}
+.prefix.active {
+  color: green;
+}
+.prefix ~ label {
+  margin-left: 3rem;
+}
+
+input:focus::-webkit-input-placeholder{
+    color: green;
+}
+
+
+input:focus::-webkit-input-placeholder {
+color: green !important;
+}
+
+input:focus::-moz-placeholder { /* Firefox 18- */
+color: green !important;
+}
+
+input:focus::-moz-placeholder {  /* Firefox 19+ */
+color: green !important;
+}
+
+input:focus::-ms-input-placeholder {
+color: green !important;
+}
